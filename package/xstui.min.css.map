@@ -1,0 +1,1 @@
+{"version":3,"sources":["xstui.min.css"],"names":[],"mappings":"AAAA,YACE,YAAa,AACb,iBAAkB,AAClB,mBAAoB,AACpB,UAAY,CACb","file":"xstui.min.css","sourcesContent":[".xst-button {\n  border: none;\n  padding: 5px 15px;\n  background: #41B883;\n  color: #fff;\n}\n"]}
