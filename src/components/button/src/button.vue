@@ -1,5 +1,6 @@
 <template>
-  <button class="xst-button">
+  <button class="xst-button button">
+    这是一个按钮
     <slot></slot>
   </button>
 </template>
