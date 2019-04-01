@@ -45,7 +45,6 @@ module.exports = {
       use: [
         'style-loader',
         'css-loader',
-        'autoprefixer-loader'
       ]
     }, {
       test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/,

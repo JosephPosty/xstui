@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <xst-button>这是按钮</xst-button>
+    <xst-header></xst-header>
     <router-view/>
   </div>
 </template>
