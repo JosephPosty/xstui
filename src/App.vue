@@ -1,14 +1,25 @@
 <template>
   <div id="app">
-    <xst-button>这是按钮</xst-button>
-    <xst-header></xst-header>
+    <xst-button  disabled ref="try" size="small" type="success" circle >11</xst-button>
+    <!-- <xst-button type="primary" icon="xst-icon-edit"></xst-button> -->
+    <!-- <xst-header></xst-header> -->
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data() {
+    return {
+
+    }
+  },
+  methods: {
+    getSlot() {
+      console.log(this.slots)
+    }
+  }
 }
 </script>
 

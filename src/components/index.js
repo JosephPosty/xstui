@@ -1,6 +1,6 @@
 import Button from './button/index'
 import Header from './header/index'
-import './index.css'
+import '../assets/less/index.css';
 
 const components = {
   Button,

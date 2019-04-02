@@ -1,8 +1,10 @@
 import Button from './button/index'
+import Header from './header/index'
 import './index.css'
 
 const components = {
-  Button
+  Button,
+  Header
 }
 
 const install = function (Vue) {
